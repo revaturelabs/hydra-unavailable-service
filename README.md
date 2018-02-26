@@ -26,4 +26,4 @@ Domain -> Unavailable:
 
 Dao Directory
 * contains interfaces("repositories") that are used throughout the serivce: 
-** ActivatableObjectRepository/BaseRepository/UnavailableRepository
+* ActivatableObjectRepository/BaseRepository/UnavailableRepository
