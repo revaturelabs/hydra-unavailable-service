@@ -22,8 +22,7 @@ import org.springframework.web.bind.annotation.*;
  */
 
 @RestController
-@RequestMapping("/api/v2/unavailable")
-@ComponentScan(basePackages="com.revature.assignforce.service")
+@RequestMapping
 //@Api(value = "Unavailable Controller", description = "Operations regarding unavailable data")
 public class UnavailableCtrl {
 	

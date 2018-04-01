@@ -1,26 +1,28 @@
 spring:
-    application:
-        name: assignforce-skill-service
-    #DATABASE CONFIG ISSUE: CANNOT USE ENVIRONMENT VARIABLE
-    datasource:
-
-        url: ${DB_URL}
-        username: ${DB_USER}
-        password: ${DB_PASSWORD}
-    #HIBERNATE
-    jpa:
-        database-platform: org.hibernate.dialect.Oracle10gDialect
-
-server:
-  port: 9091
+  application:
+    name: unavailable
+  cloud:
+    services:
+      registrationMethod: direct
+  jpa:
+    hibernate:
+      ddl-auto: create
 
 eureka:
   client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka
-    lease: 5
-    healthcheck:
-      enabled: false
+    register-with-eureka: true
+    leaseRenewalIntervalInSeconds: 10
+    healthcheck:       
+      enabled: true
   instance:
-    lease-expiration-duration-in-seconds: 2
-    lease-renewal-interval-in-seconds: 1
+    lease-renewal-interval-in-seconds: 10
+    lease-expiration-duration-in-seconds: 20
+
+security:
+  basic:
+    enabled: false
+
+server:
+  servlet:
+    contextPath: /v0
+
