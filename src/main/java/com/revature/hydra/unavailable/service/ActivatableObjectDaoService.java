@@ -1,10 +1,10 @@
-package com.revature.unavailableservice.service;
+package com.revature.hydra.unavailable.service;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.revature.unavailableservice.dao.ActivatableObjectRepository;
-import com.revature.unavailableservice.domain.Activatable;
+import com.revature.hydra.unavailable.dao.ActivatableObjectRepository;
+import com.revature.hydra.unavailable.domain.Activatable;
 
 import java.io.Serializable;
 

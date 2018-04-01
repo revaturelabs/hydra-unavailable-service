@@ -1,4 +1,4 @@
-package com.revature.unavailableservice.service;
+package com.revature.hydra.unavailable.service;
 
 import java.io.Serializable;
 
@@ -6,7 +6,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.revature.unavailableservice.dao.BaseRepository;
+import com.revature.hydra.unavailable.dao.BaseRepository;
 
 public abstract class DaoService<T, ID extends Serializable>{
 

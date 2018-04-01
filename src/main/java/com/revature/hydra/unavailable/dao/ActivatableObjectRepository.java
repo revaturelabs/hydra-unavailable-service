@@ -1,8 +1,8 @@
-package com.revature.unavailableservice.dao;
+package com.revature.hydra.unavailable.dao;
 
 import org.springframework.data.repository.NoRepositoryBean;
 
-import com.revature.unavailableservice.domain.Activatable;
+import com.revature.hydra.unavailable.domain.Activatable;
 
 import java.io.Serializable;
 import java.util.List;

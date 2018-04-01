@@ -1,4 +1,4 @@
-package com.revature.unavailableservice.domain;
+package com.revature.hydra.unavailable.domain;
 
 import java.sql.Timestamp;
 

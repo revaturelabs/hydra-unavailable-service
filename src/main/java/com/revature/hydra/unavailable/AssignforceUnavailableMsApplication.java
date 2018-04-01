@@ -1,4 +1,4 @@
-package com.revature.unavailableservice;
+package com.revature.hydra.unavailable;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

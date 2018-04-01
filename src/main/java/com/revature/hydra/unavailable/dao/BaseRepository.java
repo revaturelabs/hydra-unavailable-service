@@ -1,4 +1,4 @@
-package com.revature.unavailableservice.dao;
+package com.revature.hydra.unavailable.dao;
 
 
 import java.io.Serializable;

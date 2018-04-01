@@ -1,9 +1,9 @@
-package com.revature.unavailableservice.controller;
+package com.revature.hydra.unavailable.controller;
 
-import com.revature.unavailableservice.domain.Unavailable;
+import com.revature.hydra.unavailable.domain.Unavailable;
 //import com.revature.unavailableservice.domain.dto.UnavailableDTO;
 //import com.revature.unavailableservice.domain.dto.ResponseErrorDTO;
-import com.revature.unavailableservice.service.DaoService;
+import com.revature.hydra.unavailable.service.DaoService;
 
 //import io.swagger.annotations.Api;
 //import io.swagger.annotations.ApiOperation;

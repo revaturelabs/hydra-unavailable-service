@@ -1,4 +1,4 @@
-package com.revature.unavailableservice.domain;
+package com.revature.hydra.unavailable.domain;
 
 /**
  * Created by August Duet on 11/29/2016.

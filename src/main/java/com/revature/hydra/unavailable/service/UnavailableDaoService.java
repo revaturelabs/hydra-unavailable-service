@@ -1,6 +1,6 @@
-package com.revature.unavailableservice.service;
+package com.revature.hydra.unavailable.service;
 
-import com.revature.unavailableservice.domain.Unavailable;
+import com.revature.hydra.unavailable.domain.Unavailable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
