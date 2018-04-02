@@ -1,0 +1,5 @@
+---
+applications:
+- name: unavailable
+  path: ./target/unavailable-0.0.1.jar
+  no-route: true
