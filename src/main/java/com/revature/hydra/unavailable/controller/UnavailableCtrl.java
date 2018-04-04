@@ -23,6 +23,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping
+@CrossOrigin
 //@Api(value = "Unavailable Controller", description = "Operations regarding unavailable data")
 public class UnavailableCtrl {
 	
