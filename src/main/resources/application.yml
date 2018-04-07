@@ -42,7 +42,7 @@ spring:
       path: /h2
       enabled: true
   datasource:
-    url: jdbc:h2:mem:test;DB_CLOSE_ON_EXIT=false;DB_CLOSE_DELAY=-1;
+    url: jdbc:h2:mem:test;DB_CLOSE_ON_EXIT=false;DB_CLOSE_DELAY=-1;MODE=PostgreSQL;
     username: sa
     password:
     platform: h2
