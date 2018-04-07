@@ -1,16 +1,16 @@
 spring:
   profiles:
-    active: unavailableservice
+    active: production
 
 ---
 
 spring:
+  profiles: production
   application:
     name: unavailable
   cloud:
     services:
       registrationMethod: direct
-  profiles: unavailableservice
   jpa:
     hibernate:
       ddl-auto: update
