@@ -1,13 +1,14 @@
 package com.revature.hydra.unavailable.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import java.sql.Timestamp;
 
 @Data
 @NoArgsConstructor
@@ -19,8 +20,9 @@ public class Unavailable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    private String name;
-    private String title;
-    private String email;
+    private Integer trainerId;
+
+    private Timestamp startDate;
+    private Timestamp endDate;
 
 }
